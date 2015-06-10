@@ -171,7 +171,7 @@ def put(service):
         enc_file_name = encrypt_file(filename,key)
         req = service.objects().insert(media_body=enc_file_name,name=enc_file_name, bucket=_BUCKET_NAME)
         resp = req.execute()
-        print '> Uploaded source file %s' % filename
+        print '>Uploaded source file %s' % filename
         print json.dumps(resp, indent=2)
         os.remove(filename)
     except client.AccessTokenRefreshError:
