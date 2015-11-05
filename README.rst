@@ -1,3 +1,20 @@
+=========================
+Google Cloud Storage Utility
+=========================
+
+-------
+Warning
+-------
+Still in development needs lot of optimizations try it on your own risk
+
+----------
+Description
+----------
+Technologies: Python, Google Storage
+Descriptions:
+Simple command line utility written in Python to store the files in encrypted using AES algorithm on to the google buckets. It also includes various operations such as listing, deletion and upload options.  
+
+
 Following steps are used to install the python for the Assignment 1. (Please install python 2.7.x not 3.4.X)
 1. Install python 2.7.X, you can download python from https://www.python.org/downloads/
 2. Get pip for the python 2.7.X, follow the instructions on https://pip.pypa.io/en/latest/installing.html to get pip.
@@ -24,5 +41,4 @@ To get started with Google Cloud follow the below steps:
 
 For more reading about JSON API - https://cloud.google.com/storage/docs/json_api/
 
-This is all you need to get started with your assignment. Now your environment and account is set up, you can go ahead and write the code for the Assignment1.
 
